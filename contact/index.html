@@ -46,7 +46,7 @@
 			<h3 class="editable">We would love to hear from you</h3>
 			<p class="editable"> Contact forms are easy on Cloud Cannon. Just add an HTML form on your page and Cloud Cannon will automatically send the data to an email address when it is submitted. </p>
 
-			<form action="/" method="post">
+			<form action="https://formspree.io/sebastien@kokorobot.com" method="post">
 				<div class="clearfix">
 					<div class="halves">
 						<div>
@@ -62,9 +62,8 @@
 					<div class="full">
 						<label for="message">Message</label>
 						<textarea name="message" id="message" placeholder="Message"></textarea>
-						
-						<!-- On Cloud Cannon you just need uncomment the following line to automatically email the form submission -->
-						<!-- <input type="hidden" name="cc_emails[]" value="your@emailaddress.com" /> -->
+
+						<input type="hidden" name="_next" value="//kokorobot.com/thanks.html" />
 
 						<input type="submit" value="Send Message">
 					</div>
