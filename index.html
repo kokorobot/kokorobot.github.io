@@ -44,16 +44,36 @@ title: Kokorobot - Social Robots App Development
 				<p class="editable">I can speak at your seminar or conference about social robots app development. I cover topics on UX Design, robot APIs, resources and tools used for developing those apps.</p>
 			</div>
 		</div>
-
-		<p class="editable see-more"><a href="/work">See more of our work &gt;</a></p>
 	</div>
 </section>
 
 <section>
 	<div class="container subheader">
 		<h3>Get in touch</h3>
-		<p> Have a  </p>
-		<p><a href="/contact" class="button">Contact Us Now</a></p>
+		<form action="https://formspree.io/sebastien@kokorobot.com" method="post">
+			<div class="clearfix">
+				<div class="halves">
+					<div>
+						<label for="name">Full Name</label>
+						<input type="text" name="name" id="name" placeholder="Full Name">
+					</div>
+					<div>
+						<label for="email">Email Address</label>
+						<input type="email" name="email" id="email" placeholder="Email Address">
+					</div>
+				</div>
+
+				<div class="full">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" placeholder="Message"></textarea>
+
+					<input type="hidden" name="_next" value="/thanks.html" />
+					<input type="hidden" name="_subject" value="Kokorobot contact" />
+
+					<input type="submit" value="Send Message">
+				</div>
+			</div>
+		</form>
 	</div>
 </section>
 
@@ -71,7 +91,7 @@ title: Kokorobot - Social Robots App Development
 
 			<h5>Client Access</h5>
 			<p>Add <code>class="editable"</code> to the elements in the HTML you want your client to update.</p>
-			
+
 			<h5>Live Website</h5>
 			<p>You now have a blazing fast live website with a CMS your clients can use to update their content.</p>
 
@@ -81,7 +101,7 @@ title: Kokorobot - Social Robots App Development
 		<div class="right-column">
 			<h4> Benefits </h4>
 			<img width="350" height="165" src="/img/benefits.png" alt="Blazing fast hosting" class="editable">
-			
+
 			<ul>
 				<li> No programming required</li>
 				<li> Takes just 2 minutes to set up </li>
