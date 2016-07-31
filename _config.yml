@@ -1,2 +1,12 @@
 gems:
   - jekyll-sitemap
+  - jekyll-feed
+
+# Jekyll feed
+title: "Kokorobot: Social Robots Application Developer"
+description: "Kokorobot provides training and development services for social robots."
+url: "http://kokorobot.com"
+author: Sebastien Cagnon
+
+# blog link
+permalink: /:year/:month/:day/:title
