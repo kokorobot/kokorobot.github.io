@@ -10,16 +10,6 @@ sitemap: false
   <div class="container">
     <h1><a href="/"><img src="/img/logo.png" alt="Kokorobot"></a></h1>
 
-    <nav id="menu">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/work">Portfolio</a></li>
-        <li><a href="/contact" class="cc-active">Contact</a></li>
-      </ul>
-    </nav>
-
-    <a id="menu-toggle" href="#">&#9776;</a>
   </div>
 </header>
 
@@ -38,6 +28,6 @@ sitemap: false
 		</div>
 
 		<div class="right-column">
-			<h2>TODO: right column!</h2>
+			{% include posts_list.html %}
   </div>
 </section>
