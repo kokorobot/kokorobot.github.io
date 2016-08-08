@@ -8,5 +8,7 @@ description: "Kokorobot provides training and development services for social ro
 url: "http://kokorobot.com"
 author: Sebastien Cagnon
 
+highlighter: pygments
+
 # blog link
 permalink: /:year/:month/:day/:title
