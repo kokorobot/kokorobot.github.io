@@ -40,7 +40,7 @@ There are 2 ways to display the project page on the tablet. But before that, don
 
 Then from Python, for example in a Choregraphe box, do:
 
-```Python
+```python
 # method 1: use loadApplication
 uid = self.packageUid()
 self.session().service('ALTabletService').loadApplication(uid)

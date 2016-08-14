@@ -454,3 +454,13 @@ blockquote {
     font-size: 39px;
     font-weight: bold;
 }
+
+.highlight {
+	white-space: pre;
+	overflow-x: scroll;
+	width: inherit;
+}
+
+.highlight pre {
+	margin: 0px;
+}
