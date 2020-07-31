@@ -424,7 +424,9 @@ textarea {
 	}
 
 	.halves > div {
-		width: 48%;
+		width: 44%;
+		padding-left: 2%;
+		padding-right: 2%;
 	}
 
 	.full > div {
@@ -463,4 +465,8 @@ blockquote {
 
 .highlight pre {
 	margin: 0px;
+}
+
+.img-right {
+	float: right;
 }

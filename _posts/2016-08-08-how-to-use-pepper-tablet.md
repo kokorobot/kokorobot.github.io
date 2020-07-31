@@ -130,10 +130,14 @@ function changeTitle(data) {
 
 // say Hello ...
 ```
+![Pepper Tablet Sample](/img/posts/2016/pepper-tablet-sample.jpg){:.img-right}
 
 The whole javascript is available [here](https://github.com/kokorobot/pepper_samples/blob/master/tablet_sample/html/js/script.js).
 
 From there, you can create a tablet application that connects to your application and interact with the user and the robot easily.
+
+By now, your tablet should be looking like simple but be functional.
+
 
 ## Troubleshooting
 

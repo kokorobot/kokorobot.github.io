@@ -6,7 +6,7 @@ category: announcements
 meta: "Kokorobot is open for business. Expert Pepper and Nao developer can help you jumpstart your social robot projects."
 ---
 
-![Kokorobot Logo](/img/posts/Kokorobot_company_logo.jpg)
+![Kokorobot Logo](/img/posts/2016/Kokorobot_company_logo.jpg)
 
 ## Who are we?
 
